@@ -1,0 +1,14 @@
+# https://www.codewars.com/kata/reversing-words-in-a-string/train/python
+def reverse(hw):
+# i want to split the hello world into two strings, reverse the order of the string
+   ...:     begin = 0
+   ...:     end = len(hw) - 1
+   ...:     hw = [i for i in hw]
+   ...:     while (begin < end):
+   ...:         temp = hw[begin]
+   ...:         hw[begin] = hw[end]
+   ...:         hw[end] = temp
+   ...:         begin += 1
+   ...:         end -= 1
+   ...:     return ''.join(hw)
+   ...: print reverse('Hello world')
