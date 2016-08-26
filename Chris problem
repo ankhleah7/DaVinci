@@ -12,3 +12,9 @@ def reverse(hw):
    ...:         end -= 1
    ...:     return ''.join(hw)
    ...: print reverse('Hello world')
+# completed class version.
+hw = 'hello world'
+hw2 = hw.split()
+hw2.reverse()
+' '.join(hw2)
+return hw2
